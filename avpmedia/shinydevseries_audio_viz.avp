@@ -1,0 +1,27 @@
+[Components]
+Title Text
+1
+OrderedDict([('alignment', 1), ('fontSize', 0.04140625), ('fontStyle', 0), ('preset', None), ('shadBlur', 0.00390625), ('shadX', -0.003125), ('shadY', 0.00625), ('shadow', True), ('stroke', 0.0), ('strokeColor', (0, 0, 0)), ('textColor', (255, 255, 255)), ('title', 'Episode 5: Shiny & Javascript w/ Nick Strayer'), ('titleFont', 'Sans Serif,-1,80,5,50,0,0,0,0,0'), ('xPosition', 0.5), ('yPosition', 0.5222222222222223)])
+Classic Visualizer
+1
+OrderedDict([('layout', 0), ('preset', None), ('scale', 20), ('visColor', (255, 255, 255)), ('y', 0.0)])
+Title Text
+1
+OrderedDict([('alignment', 1), ('fontSize', 0.059375), ('fontStyle', 1), ('preset', None), ('shadBlur', 0.00390625), ('shadX', -0.003125), ('shadY', 0.00625), ('shadow', True), ('stroke', 0.0), ('strokeColor', (0, 0, 0)), ('textColor', (255, 255, 255)), ('title', 'Developer Series'), ('titleFont', 'Sans Serif,-1,114,5,63,0,0,0,0,0'), ('xPosition', 0.5140625), ('yPosition', 0.15416666666666667)])
+Image
+1
+OrderedDict([('color', 100), ('image', '/avpmedia/shiny.png'), ('mirror', False), ('preset', None), ('rotate', 0), ('scale', 0.015625), ('stretchScale', 30), ('stretched', False), ('x', 0.1), ('y', 0.008333333333333333)])
+Image
+1
+OrderedDict([('color', 100), ('image', '/avpmedia/particle_background.png'), ('mirror', False), ('preset', None), ('rotate', 0), ('scale', 0.078125), ('stretchScale', 150), ('stretched', False), ('x', 0.0), ('y', 0.0)])
+
+[Settings]
+componentDir=/avpmedia
+inputDir=/avpmedia
+outputDir=/avpmedia
+presetDir=/root/.config/audio-visualizer/projects
+projectDir=/avpmedia
+
+[WindowFields]
+lineEdit_audioFile=/avpmedia/ep005_webinar_only.mp3
+lineEdit_outputFile=/avpmedia/shinydevseries_ep5_viz.mp4

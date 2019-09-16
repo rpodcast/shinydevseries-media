@@ -1,0 +1,21 @@
+[Components]
+Title Text
+1
+OrderedDict([('alignment', 1), ('fontSize', 0.046875), ('fontStyle', 0), ('preset', None), ('shadBlur', 0.00390625), ('shadX', -0.003125), ('shadY', 0.00625), ('shadow', False), ('stroke', 0.0), ('strokeColor', (0, 0, 0)), ('textColor', (255, 255, 255)), ('title', 'Hello command line'), ('titleFont', 'Monospace,-1,60,5,50,0,0,0,0,0'), ('xPosition', 0.5), ('yPosition', 0.5222222222222223)])
+Classic Visualizer
+1
+OrderedDict([('layout', 0), ('preset', None), ('scale', 30), ('visColor', (255, 255, 255)), ('y', 0.0)])
+Image
+1
+OrderedDict([('color', 100), ('image', '/avpmedia/Rpodcast_gradient_background.jpg'), ('mirror', False), ('preset', None), ('rotate', 0), ('scale', 0.078125), ('stretchScale', 100), ('stretched', False), ('x', 0.0), ('y', 0.0)])
+
+[Settings]
+componentDir=/avpmedia
+inputDir=/avpmedia
+outputDir=/avpmedia
+presetDir=/root/.config/audio-visualizer/projects
+projectDir=/avpmedia
+
+[WindowFields]
+lineEdit_audioFile=/avpmedia/1-14 - You're Not Alone.mp3
+lineEdit_outputFile=

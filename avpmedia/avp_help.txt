@@ -1,0 +1,23 @@
+root@carbon:/app/avpython# avp --help
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+usage: avp [-h] [-i SOUND] [-o OUTPUT] [-e] [-c [LAYER [ARG ...]]]
+           [path-to-project]
+
+Create a visualization for an audio file
+
+positional arguments:
+  path-to-project       open a project file (.avp)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i SOUND, --input SOUND
+                        input audio file
+  -o OUTPUT, --output OUTPUT
+                        output video file
+  -e, --export          use input and output files from project file
+  -c [LAYER [ARG ...]], --comp [LAYER [ARG ...]]
+                        first arg must be component NAME to insert at
+                        LAYER."help" for information about possible args for a
+                        component.
+
+EXAMPLE COMMAND: main.py myvideotemplate.avp -i ~/Music/song.mp3 -o ~/video.mp4 -c 0 image path=~/Pictures/thisWeeksPicture.jpg -c 1 video "preset=My Logo" -c 2 vis layout=classic
